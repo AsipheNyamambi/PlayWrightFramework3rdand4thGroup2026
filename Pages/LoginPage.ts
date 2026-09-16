@@ -20,4 +20,4 @@ export class LoginPage extends BasePage{
     async verifyDashboardHeading() {
         await this.VerifyElementVisible(this.page.getByRole('heading', { name: /Welcome\s*back/i })); 
     }
-}
+} 
