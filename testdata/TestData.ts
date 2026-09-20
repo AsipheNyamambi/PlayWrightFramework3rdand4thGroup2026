@@ -6,5 +6,8 @@ export const validUsers={
     studentUser: {
         username: 'playtest@gmail.com',
         password: '1234567!',
+    },
+    gitusername:{
+        mygitusername: 'AsipheNyamambi'
     }
 }

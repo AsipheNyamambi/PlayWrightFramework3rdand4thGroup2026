@@ -20,4 +20,16 @@ export class LoginPage extends BasePage{
     async verifyDashboardHeading() {
         await this.VerifyElementVisible(this.page.getByRole('heading', { name: /Welcome\s*back/i })); 
     }
+    // async clickMenuButton() {
+    //     await this.ClickElement(this.page.getByRole('button', { name: 'Menu' }));
+    //     //await page.locator('text=Menu').click();
+    // }
+
+    //  async ClickMyProfile () {
+    //      await this.ClickElement(this.page.getByRole('button', { name: 'My Profile' }));
+    // }
+        
+    //  async ClickEditProfile () {
+    //      await this.ClickElement(this.page.getByRole('button', { name: 'Edit Profile' }));
+    // }
 } 
