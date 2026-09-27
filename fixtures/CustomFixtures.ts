@@ -1,6 +1,6 @@
 import { LoginPage } from "../Pages/LoginPage";
 import { test as base } from "@playwright/test";
-import { HomePage } from "../Pages/HomePage";
+import { HomePage } from "../Pages/HomePage";       
 
 
 type CustomFixtures = {
@@ -19,3 +19,6 @@ export const test = base.extend<CustomFixtures>({
         await use(new HomePage(page));
     }
 });
+
+// Load authentication state for tests
+test.use({ storageState: 'playwright/.auth/user.json' });

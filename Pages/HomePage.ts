@@ -1,5 +1,4 @@
 import { BasePage } from "../utils/BasePage";
-import { Locator } from "@playwright/test";
 
 export class HomePage extends BasePage{
      async ClickMenu () {
@@ -17,4 +16,4 @@ export class HomePage extends BasePage{
      async EditGitProfileName (gitusername: string ){
         await this.EnterText(this.page.getByPlaceholder('e.g., octocat'), gitusername)
      }
-}
+   }

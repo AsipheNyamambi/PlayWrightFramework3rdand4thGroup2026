@@ -1,5 +1,4 @@
 import { BasePage } from "../utils/BasePage";
-import { Locator } from "@playwright/test";
 
 export class LoginPage extends BasePage{ 
     
