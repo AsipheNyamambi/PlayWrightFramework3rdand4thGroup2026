@@ -1,7 +1,7 @@
 import { BasePage } from "../utils/BasePage";
 
 export class HomePage extends BasePage{
-     async ClickMenu () {
+     async ClickMenuButton () {
         await this.ClickElement(this.page.getByRole('button', { name: 'Menu' }));   
      }
 

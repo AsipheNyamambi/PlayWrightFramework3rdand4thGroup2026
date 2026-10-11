@@ -5,8 +5,8 @@ import { HomePage } from "../Pages/HomePage";
 
 type CustomFixtures = {
     // Define your custom fixtures here
-    loginPage: LoginPage;
-    homePage: HomePage;
+     loginPage: LoginPage;
+     homePage: HomePage;
 
 };
 
